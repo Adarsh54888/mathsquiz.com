@@ -1,0 +1,17 @@
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: var(--big-font-size);
+    color: var(--primary-color);
+  }
+  #countdown div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #countdown span {
+    font-size: var(--bigger-font-size);
+    font-weight: var(--font-semi-bold);
+  }
+  
